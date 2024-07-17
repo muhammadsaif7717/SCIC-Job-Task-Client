@@ -1,15 +1,20 @@
+
+import { Outlet } from "react-router-dom";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 
 
-const Home = () => {
+const Root = () => {
+    
     return (
         <div className="">
             <Navbar></Navbar>
-            <h1 className="text-lg">awejefhjef</h1>
+            <div className="min-h-screen">
+            <Outlet/>
+            </div>
             <Footer></Footer>
         </div>
     );
 };
 
-export default Home;
+export default Root;
