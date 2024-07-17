@@ -1,8 +1,8 @@
 import axios from "axios";
-import { useContext } from "react";
+// import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import { AuthContext } from "../../Contexts/AuthProvider";
+// import { AuthContext } from "../../Contexts/AuthProvider";
 
 
 const Register = () => {
