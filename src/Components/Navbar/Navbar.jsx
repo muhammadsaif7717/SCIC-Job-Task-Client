@@ -4,8 +4,10 @@ import './Navbar.css'
 const Navbar = () => {
     const links= <div className='flex flex-col lg:flex-row gap-5'>
         <NavLink to={'/'}>Home</NavLink>
-        <NavLink to={`/about`}>About</NavLink>
-        <NavLink to={`/contact`}>Contact</NavLink>
+        <NavLink to={'/register'}>Register</NavLink>
+        <NavLink to={`/cash-out`}>Cash Out</NavLink>
+        <NavLink to={`/send-money`}>Send Money</NavLink>
+        <NavLink to={`/others`}>Others</NavLink>
     </div>
     return (
         <div className="navbar bg-base-100 p-0">
